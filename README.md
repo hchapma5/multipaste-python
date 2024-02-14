@@ -25,7 +25,6 @@ To run MultiPaste, you'll need:
 Before running MultiPaste, ensure you have the required libraries installed. You can install them using pip:
 
 ```bash
-Copy code
 pip install pynput pyperclip
 ```
 
@@ -34,7 +33,6 @@ pip install pynput pyperclip
 To start MultiPaste, navigate to the directory containing the script and run:
     
 ```bash
-Copy code
 python multipaste.py
 ```
 Ensure the script's name matches the command.
@@ -53,14 +51,12 @@ MultiPaste can be packaged into a single executable file for Windows using PyIns
 1. Install PyInstaller:
     
 ```bash
-Copy code
 pip install pyinstaller
 ```
 2. Package the Application:
 Navigate to the application directory and run:
 
 ```bash
-Copy code
 pyinstaller --onefile --windowed multipaste.py
 ```
 This command tells PyInstaller to package the script into a single executable file with a windowed interface (no console). The resulting .exe file can be found in the dist directory.
